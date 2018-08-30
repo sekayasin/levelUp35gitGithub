@@ -1,1 +1,139 @@
-/* Styles for my git+GitHub Tinkering page */
+/* ---------------------------------------------------- */
+/* Basic Setup */
+/* ---------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------------------------- */
+/* Header */
+/* ---------------------------------------------------- */
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 100px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------------- */
+/* Flyer Section and Hero text */
+/* ---------------------------------------------------- */
+
+.artwork {
+    clear: both;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://source.unsplash.com/mcLpPD36-2k);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.btn {
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+/* ---------------------------------------------------- */
+/* Form */
+/* ---------------------------------------------------- */
+
+.register-form {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    background: #dbd9d9
+}
+
+.contact-form, 
+.register-team {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.register-team {
+    padding: 30px;
+}
+
+.contact-form {
+    /* background: #fff; */
+}
+
+input[type=text],
+input[type=email],
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+
+/* ---------------------------------------------------- */
+/* Footer */
+/* ---------------------------------------------------- */
+
+footer {
+    clear: both;
+}
