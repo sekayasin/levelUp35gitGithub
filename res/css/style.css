@@ -129,6 +129,10 @@ input[type=submit] {
     border: 1px solid #cccccc;
 }
 
+.form-elements {
+    margin-bottom: 5px;
+}
+
 
 /* ---------------------------------------------------- */
 /* Footer */
