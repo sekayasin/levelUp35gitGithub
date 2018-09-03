@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="res/css/style.css">
+        <link rel="stylesheet" href="res/css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <title>UG48 - Ugandan based tech-startup hackathon</title>
     </head>
@@ -26,39 +27,62 @@
             </div>
         </header>
 
-        <section class="artwork">
-            <div class="hero-text">
-                <p>UG 48 Kampala! are you Ready for this year's UG 48! UG48 Kampala Edition</p>
-                <a href="#" class="btn">Learn more</a>
-            </div>
-        </section>
+        <main class="main-body clearfix">
+            <section class="artwork">
+                <div class="hero-text">
+                    <p>Prototype your tech startup idea in 48hours! are you Ready for this year's UG 48! UG48 Kampala Edition</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </section>
 
-        <section class="register-form">
-            <div class="register-team">
-                <h2>Register for UG 48 Kampala</h2>
-            </div>
-
-            <form action="#" method="post" class="contact-form">
-                <div class="form-elements">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" placeholder="Enter your name or team name" required>
+            <section class="register-form">
+                <div class="register-team">
+                    <h2>Register for UG 48 Kampala Edition</h2>
+                    <p>UG48 is a Ugandan based Tech Start-up Hackathon Series Turning your Idea into A Working Prototype</p>
                 </div>
 
-                <div class="form-elements">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Enter your email or team email" required>
-                </div>
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-elements">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" placeholder="Enter your first name" required>
+                    </div>
 
-                <div class="form-elements">
-                    <!-- <label for="name">Name</label> -->
-                    <input type="submit" value="Register">
-                </div>
-            </form>
+                    <div class="form-elements">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" placeholder="Enter your last name" required>
+                    </div>
 
-        </section>
+                    <div class="form-elements">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Enter your email or team email" required>
+                    </div>
 
-        <footer>
-            <!-- <div class="container">
+                    <div class="form-elements">
+                        <label for="tname">Team Name</label>
+                        <input type="text" name="tname" placeholder="Enter your team name if any">
+                    </div>
+
+                    <div class="form-elements">
+                        <label for="pname">Phone Number</label>
+                        <input type="tel" name="pname" placeholder="Enter your mobile phone number" required>
+                    </div>
+
+                    <div class="form-elements">
+                        <input type="checkbox" name="checkbox"> I would like to receive occasional news from UG48 by email 
+                    </div>
+
+                    <div class="form-elements">
+                        <!-- <label for="name">Name</label> -->
+                        <input type="submit" value="Register">
+                    </div>
+
+                    <p>All information provided will be handled in accordance with the UG48 privacy policy</p>
+                </form>
+            </section>
+        </main>
+
+        <footer class="clearfix">
+            <div class="container">
                 <div class="links">
                     <ul class="footer-nav">
                         <li><a href="#">Home</a></li>
@@ -69,7 +93,7 @@
                     </ul>
                 </div>
 
-                <div class="social-links">
+                <div class="social-link">
                     <ul class="social-links">
                         <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
@@ -77,7 +101,12 @@
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
-            </div> -->
+            </div>
+            <div class="copyright">
+                <p>
+                    &copy; Copyright 2018 by UG48 Team. All rights reserved.
+                </p>
+            </div>
         </footer>
     </body>
 </html>

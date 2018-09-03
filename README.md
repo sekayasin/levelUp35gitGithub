@@ -8,11 +8,12 @@ Create a GitHub repo with two branches (master and develop)\
 Integrate Pivotal Tracker such that GitHub activity is reflected on stories in PivotalTracker\
 Add index.html and style.css to develop branch\
 Request a pull request\
-Merge to master\
+Merge to master
 
 ## Day3 Responsive Webdesign with HTML5/CSS3
 Create an EventApp\
 Create an event_app branch from develop\
 Create a new story for designing the frontend of the EventApp\
-Design a responsive signup page for the EventApp\ 
+Design a responsive signup page for the EventApp\
+Website is hosted on GitHub Pages <a href="https://sekayasin.github.io/levelUp35gitGithub">here</a> 
 
