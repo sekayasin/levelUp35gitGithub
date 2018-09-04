@@ -14,7 +14,8 @@ Merge to master
 Create an EventApp\
 Create an event_app branch from develop\
 Create a new story for designing the frontend of the EventApp\
-Design a responsive signup page for the EventApp
+Design a responsive signup page for the EventApp\
+Website is hosted on GitHub Pages <a href="https://sekayasin.github.io/levelUp35gitGithub">here</a>
 
 ## Day4 Python Basics - Checking Users Registered for our Event App
 Given two text files containing our vip guests and ordinary\
@@ -41,3 +42,9 @@ Folder Structure\
 cd into registration\
 run the prgrom by calling python main.py on terminal!\ 
 Tested on Python version 3.6 
+
+## Day5 Week Review
+
+## Day6 Python Testing with unittests
+write tests using unittest python module to check the user registration form 
+
