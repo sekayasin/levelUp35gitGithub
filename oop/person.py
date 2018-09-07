@@ -1,5 +1,8 @@
 class Person:
-
+    """ 
+    Person super class with attributes and methods that
+    define a person
+    """
     def __init__(self, fname, lname, gender, age, job_title):
         self.fname = fname
         self.lname = lname
@@ -9,7 +12,10 @@ class Person:
     
 
 class User(Person):
-
+    """
+    User class is a subclass that inherits from the person super
+    class
+    """
     def __init__(self, fname, lname, gender, age, job_title, residence):
         super().__init__(fname, lname, gender, age, job_title)
         self.residence = residence
